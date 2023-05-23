@@ -1,0 +1,15 @@
+app:
+  name: qwe-poi-gateway-app
+  namespace: qwe
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/qwe-gateway
+  org: Summit23Janus1
+  name: qwe-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: qwe/poi-gateway-app
+  tag: latest
